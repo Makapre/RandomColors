@@ -53,7 +53,7 @@
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="109.82142857142857"/>
         </scene>
-        <!--Colors DetailVC-->
+        <!--Color-->
         <scene sceneID="KBl-A4-t79">
             <objects>
                 <viewController id="09c-oD-uI7" customClass="ColorsDetailVC" customModule="RandomColors" customModuleProvider="target" sceneMemberID="viewController">
@@ -63,7 +63,7 @@
                         <viewLayoutGuide key="safeArea" id="zhF-Ok-GMf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oCE-NA-n7X"/>
+                    <navigationItem key="navigationItem" title="Color" id="oCE-NA-n7X"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKA-SW-6Gn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
