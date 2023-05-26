@@ -16,5 +16,4 @@ class ColorsDetailVC: UIViewController {
     view.backgroundColor = color ?? .white
     navigationItem.title = view.backgroundColor?.toHex()
   }
-
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F73D89B62A2095E800391313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7B553F226734D6200AB6B7C /* ColorsTableVC.swift */,
+				F7B553F426734E5900AB6B7C /* ColorsDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F73D89B72A2095F700391313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7B553E426734CD400AB6B7C /* Main.storyboard */,
+				F7B553E926734CD500AB6B7C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F73D89B82A20960400391313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F7B553D226734CD400AB6B7C = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +87,10 @@
 			children = (
 				F7B553DE26734CD400AB6B7C /* AppDelegate.swift */,
 				F7B553E026734CD400AB6B7C /* SceneDelegate.swift */,
-				F7B553E426734CD400AB6B7C /* Main.storyboard */,
-				F7B553F226734D6200AB6B7C /* ColorsTableVC.swift */,
-				F7B553F426734E5900AB6B7C /* ColorsDetailVC.swift */,
+				F73D89B82A20960400391313 /* Model */,
+				F73D89B72A2095F700391313 /* View */,
+				F73D89B62A2095E800391313 /* Controller */,
 				F7B553E726734CD500AB6B7C /* Assets.xcassets */,
-				F7B553E926734CD500AB6B7C /* LaunchScreen.storyboard */,
 				F7B553EC26734CD500AB6B7C /* Info.plist */,
 				F7B553F62673595E00AB6B7C /* UIColor+Ext.swift */,
 			);
@@ -99,8 +123,9 @@
 		F7B553D326734CD400AB6B7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					F7B553DA26734CD400AB6B7C = {
 						CreatedOnToolsVersion = 12.5;
